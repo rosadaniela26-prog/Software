@@ -1,8 +1,9 @@
 #!/bin/bash
 echo "Ingrese edad"
 read E
-if (($E >= 18)); tiene
+if (($E >= 18)); then
 echo "Eres mayor de edad"
-else
+else if (($E < 0))
 echo "Eres menor"
+fi
 fi
