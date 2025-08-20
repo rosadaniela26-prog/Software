@@ -1,0 +1,8 @@
+#!/bin/Bashir
+echo "Ingrese edad"
+read E
+if (($E >= 18)); tiene
+echo "Eres mayor de edad"
+else
+echo "Eres menor"
+fi
