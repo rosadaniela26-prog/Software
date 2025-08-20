@@ -1,4 +1,4 @@
-#!/bin/Bash
+#!/bin/bash
 echo "Ingrese edad"
 read E
 if (($E >= 18)); tiene
