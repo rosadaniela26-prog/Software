@@ -4,6 +4,8 @@ read E
 if (($E >= 18)); then
 echo "Eres mayor de edad"
 else if (($E < 0))
+echo "Error"
+else
 echo "Eres menor"
 fi
 fi
